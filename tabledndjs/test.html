@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<!--	<link rel="stylesheet" href="tablednd.css" type="text/css"/>-->
+    <link rel="stylesheet" href="//google-code-prettify.googlecode.com/svn/trunk/src/prettify.css" type="text/css"/>
+	<title>
+		<h3>Tabla</h3>
+	</title>
+</head>
+<body>
+	<table style="margin: 4em 4em;">
+		<tbody class="table-1">
+            
+		    <tr style="cursor: move;">
+                <td style="padding:0em 1em;border:1px solid black;">111 """</td>
+            </tr>
+            
+            <tr style="cursor: move;">
+                <td style="padding:0em 1em;border:1px solid black;">222 $$$</td>
+            </tr>
+            
+            <tr style="cursor: move;">
+                <td style="padding:0em 1em;border:1px solid black;">333 @@@</td>
+            </tr>
+            
+            <tr style="cursor: move;">
+                <td style="padding:0em 1em;border:1px solid black;">444 ===</td>
+            </tr>
+            
+            <tr style="cursor: move;">
+                <td style="padding:0em 1em;border:1px solid black;">555 ???</td>
+            </tr>
+            
+            <tr style="cursor: move;">
+                <td style="padding:0em 1em;border:1px solid black;">666 ###</td>
+            </tr>
+		</tbody>
+	</table>
+	
+	<script type="text/javascript" src="//google-code-prettify.googlecode.com/svn/trunk/src/prettify.js"></script>
+	<script type="text/javascript" src="jquery.tablednd.js"></script>
+	<script type="text/javascript">
+            $(document).ready(function() {
+                $(".table-1").tableDnD();
+
+            });
+	</script>
+</body>
+</html>
